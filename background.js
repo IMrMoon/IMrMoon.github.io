@@ -11,3 +11,16 @@ document.addEventListener('DOMContentLoaded', () => {
     bgAnimation.style.animation = 'moveBackground 15s linear infinite';
     document.body.appendChild(bgAnimation);
 });
+
+document.querySelectorAll('.accordion-button').forEach(button => {
+    button.addEventListener('click', () => {
+        button.classList.toggle('active');
+        const content = button.nextElementSibling;
+        if (content.style.display === 'block') {
+            content.style.display = 'none';
+        } else {
+            content.style.display = 'block';
+        }
+    });
+});
+
