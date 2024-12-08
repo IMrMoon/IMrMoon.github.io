@@ -116,7 +116,6 @@ section:nth-child(3) {
     }
 }
 
-/* Accordion styling */
 .accordion {
     margin-top: 1em;
 }
@@ -139,7 +138,7 @@ section:nth-child(3) {
 }
 
 .accordion-content {
-    display: none;
+    display: none; /* Content is hidden by default */
     background-color: #1f2937;
     color: #c9d1d9;
     padding: 1em;
@@ -148,7 +147,7 @@ section:nth-child(3) {
 }
 
 .accordion-button.active + .accordion-content {
-    display: block;
+    display: block; /* Show content when button is active */
 }
 
 @keyframes fadeIn {
@@ -159,3 +158,4 @@ section:nth-child(3) {
         opacity: 1;
     }
 }
+
