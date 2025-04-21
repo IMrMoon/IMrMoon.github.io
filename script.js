@@ -1,3 +1,3 @@
 function openResume() {
-  window.open('resume.pdf', '_blank');
+  window.open('Segev_CV.pdf', '_blank');
 }
