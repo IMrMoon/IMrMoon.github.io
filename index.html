@@ -1,85 +1,51 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>השם שלך - מהנדס תוכנה</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Segev Chen</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <div class="container">
+    <header>
+      <img src="profile.jpg" alt="תמונת פרופיל" class="profile-pic" />
+      <h1>השם שלך</h1>
+      <p>מהנדס תוכנה | מפתח Full Stack | חובב טכנולוגיה</p>
+    </header>
 
-    <div class="container my-5">
-        
-<div class="hero">
-    <img src="profile.jpg" alt="Segev Chen">
-    <h1>Hey, I'm Segev!</h1>
-    <p>A third-year Software Engineering student, passionate developer, and problem-solver, eager to grow and innovate in the tech world.</p>
-    <div class="social-links">
-        <a href="https://github.com/IMrMoon" target="_blank">GitHub</a> |
-        <a href="https://www.linkedin.com/in/segev-chen/" target="_blank">LinkedIn</a>
-    </div>
-</div>
-<section class="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li><strong>Programming Languages:</strong> C++, Python, Java, SQL</li>
-        <li><strong>Tools & Frameworks:</strong> Linux, GitHub, Agile methodology, Jira, Git</li>
-        <li><strong>Testing & Debugging:</strong> Unit Testing, Debugging techniques</li>
-        <li><strong>Networking Protocols:</strong> TCP/IP, UDP, HTTP/S, DNS, FTP</li>
-        <li><strong>Other:</strong> Virtual Machines, Multi-threading, Cybersecurity basics</li>
-    </ul>
-</section>
-<section class="education">
-    <h2>Education</h2>
-    <div class="accordion">
-        <button class="accordion-button">Sami Shamoon College of Engineering</button>
-        <div class="accordion-content">
-            <ul>
-                <p><strong>Sami Shamoon College of Engineering:</strong> Third-year Software Engineering student</p>
-                <p>Advanced knowledge in Algorithms, Data Structures, and Object-Oriented Design</p>
-                <p>Completed courses in Network Protocols, Numerical Analysis, and Discrete Mathematics</p>
-                <p>Gained hands-on experience with Python for solving real-world numerical problems</p>
-                <p>Proficient in collaborative coding and version control using Git and GitHub</p>
-                <br>
-                <p><strong>C++ Project - Sports Field Management:</strong></p>
-                <p>Developed practical experience in project management, resource allocation, and cost management</p>
-                <p>using Agile methodologies and Jira</p>
-                <br>
-                <p><strong>Java Project - Animal Competitions:</strong></p>
-                <p>Developed a multi-threaded application simulating animal competitions.</p>
-                <p>Utilized advanced design patterns, including Observer and Factory patterns,</p>
-                <p>to ensure scalability and maintainability.</p>
-                <p>The project showcased a graphical user interface for monitoring competitions</p>
-                <p>and emphasized efficient thread synchronization and data handling.</p>
-            </ul>
-        </div>
-    </div>
-</section>
+    <section class="about">
+      <h2>קצת עליי</h2>
+      <p>
+        אני מהנדס תוכנה עם ניסיון בפיתוח מערכות מורכבות, בעל תשוקה לטכנולוגיה ולמידה מתמדת.
+      </p>
+    </section>
 
+    <section class="skills">
+      <h2>החוזקות שלי</h2>
+      <ul>
+        <li>פיתוח ב-JavaScript, Python ו-C++</li>
+        <li>עבודה עם React, Node.js ו-Django</li>
+        <li>ניסיון עם מסדי נתונים כמו MySQL ו-MongoDB</li>
+        <li>יכולת פתרון בעיות וחשיבה יצירתית</li>
+      </ul>
+    </section>
 
-    </div>
+    <section class="contact">
+      <h2>יצירת קשר</h2>
+      <p>
+        <a href="mailto:your.email@example.com">your.email@example.com</a> |
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+      </p>
+    </section>
 
-    <footer class="bg-light text-center py-3">
-        <p>&copy; 2024 Segev Chen | <a href="https://github.com/IMrMoon">GitHub</a> | <a href="https://www.linkedin.com/in/segev-chen/">LinkedIn</a></p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <section class="resume">
+      <h2>קורות חיים</h2>
+      <button onclick="openResume()">הצג קורות חיים</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
