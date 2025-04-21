@@ -60,3 +60,13 @@ button {
 button:hover {
   background-color: #e6c200;
 }
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* לשמירה על הצבע כשאין חלקיקים */
+}
+
