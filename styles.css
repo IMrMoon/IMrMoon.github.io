@@ -6,7 +6,16 @@ body {
   direction: rtl;
   text-align: center;
 }
-
+.container [name="nav_con"] {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0;
+  border: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 .container {
   max-width: 800px;
   margin: auto;
