@@ -56,9 +56,10 @@ window.onload = () => {
 
 // יצירת חלקיקים
 function initSparticles() {
-  const $main = document.querySelector("main") || document.body;
-  window.mySparticles = new Sparticles($main, options);
+  const $target = document.querySelector("#particles-js");
+  window.mySparticles = new Sparticles($target, options);
 }
+
 
 // תצוגת ביצועים
 function initStats() {
