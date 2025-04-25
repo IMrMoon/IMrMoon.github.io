@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url("https://st2.depositphotos.com/1897095/6209/i/450/depositphotos_62096447-stock-illustration-green-blue-background.jpg") no-repeat/center fixed;
+  background: url("https://st2.depositphotos.com/1897095/6209/i/450/depositphotos_62096447-stock-illustration-green-blue-background.jpg") no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   direction: rtl;
   text-align: center;
